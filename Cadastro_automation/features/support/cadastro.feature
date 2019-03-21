@@ -14,5 +14,5 @@ Funcionalidade: Cadastro
 @editar
 	Cenario: Editar perfil cadastrado
 		Dado que eu esteja logado com usuário válido no site Automation Practice
-		Quando acessar e editar as informações pessoais
+		Quando acessar e editar as informações pessoaiss
 		Entao verei a mensagem 'Your personal information has been successfully updated.'
