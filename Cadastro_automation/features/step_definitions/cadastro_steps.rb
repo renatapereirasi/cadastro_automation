@@ -4,10 +4,10 @@ end
 
 Quando("eu efetuar o cadastro com sucesso") do
 	find('a.login').click
-	fill_in('email_create',:with=>'yodinha3@mailinator.com')
+	fill_in('email_create',:with=>'yodinha5@mailinator.com')
 	click_button('SubmitCreate')
 	assert_text('CREATE AN ACCOUNT')
-	fill_in('customer_firstname',:with=>'Renata')
+	fill_in('customer_firstname',:with=>'Renatinha')
 	fill_in('customer_lastname',:with=>'Pereira')
 	fill_in('passwd',:with=>'Teste123')
 	fill_in('firstname',:with=>'Jim')
@@ -26,12 +26,13 @@ Entao("as informações cadastradas serão exibidas") do
   	click_link('My personal information')
   	assert_text('YOUR PERSONAL INFORMATION')
 end
+#Editar 
 
 Dado("que eu esteja logado com usuário válido no site Automation Practice") do
   	visit'http://automationpractice.com'
   	find('a.login').click
   	assert_text('Authentication')
-  	find('#email').set('yodinha2@mailinator.com')
+  	find('#email').set('yodinha5@mailinator.com')
   	fill_in('passwd',:with=>'Teste123')
   	click_button('SubmitLogin')
 end
