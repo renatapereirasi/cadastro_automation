@@ -1,6 +1,3 @@
-# language: pt
-# utf-8
-
 require 'rspec'
 require 'cucumber'
 require 'selenium-webdriver'
