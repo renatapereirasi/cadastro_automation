@@ -1,3 +1,6 @@
+#language: pt
+#utf-8
+
 @cadastro
 Funcionalidade: Cadastro
 	Eu como usuário do site

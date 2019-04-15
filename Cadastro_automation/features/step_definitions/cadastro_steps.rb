@@ -40,7 +40,7 @@ Quando('acessar e editar as informações pessoais') do
   click_link('My personal information')
   find('#uniform-id_gender1').click
   find("#days option[value='18']").select_option
-  find("#uniform-months option[value='3']").select_option 
+  find("#uniform-months option[value='3']").select_option
   find("#uniform-years option[value='1992']").select_option
   fill_in('old_passwd', with: 'Teste123')
   find('#uniform-newsletter').select_option
