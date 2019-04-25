@@ -4,10 +4,10 @@ end
 
 Quando('eu efetuar o cadastro com sucesso') do
   find('a.login').click
-  fill_in('email_create', with: 'yodinha6@mailinator.com')
+  fill_in('email_create', with: 'yodinha8@mailinator.com')
   click_button('SubmitCreate')
   assert_text('CREATE AN ACCOUNT')
-  fill_in('customer_firstname', with: 'Renatona')
+  fill_in('customer_firstname', with: 'Renata')
   fill_in('customer_lastname', with: 'Pereira')
   fill_in('passwd', with: 'Teste123')
   fill_in('firstname', with: 'Jim')
